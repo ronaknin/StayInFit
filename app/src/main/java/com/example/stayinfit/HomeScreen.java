@@ -16,6 +16,7 @@ public class HomeScreen extends AppCompatActivity {
     private EditText etSource;
     private  EditText etDestination;
     private Button btnGetDestination;
+    private Button btnPhoto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,13 @@ public class HomeScreen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), NotificationActivity.class);
+                startActivity(i);
+            }
+        });
+        btnPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), cameragalleryActivity.class);
                 startActivity(i);
             }
         });
@@ -58,5 +66,6 @@ public class HomeScreen extends AppCompatActivity {
         etDestination = findViewById(R.id.editTextdestination);
         btnGetDestination = findViewById(R.id.buttonMaps);
         btnNotiii = findViewById(R.id.buttonnotiii);
+        btnPhoto = findViewById(R.id.buttonphoto);
     }
 }

@@ -27,5 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="notiii" />
+    <Button
+        android:id="@+id/buttonphoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="photoooooo" />
 
 </LinearLayout>

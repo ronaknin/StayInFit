@@ -15,6 +15,9 @@
         android:theme="@style/Theme.StayInFit"
         tools:targetApi="31">
         <activity
+            android:name=".cameragalleryActivity"
+            android:exported="false" />
+        <activity
             android:name=".NotificationActivity"
             android:exported="false" />
         <activity
