@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170706432228",
+    "project_id": "login-register-4aa26",
+    "storage_bucket": "login-register-4aa26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170706432228:android:89ecfb5193939ca4eafcf1",
+        "android_client_info": {
+          "package_name": "com.example.stayinfit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJutHuw7IeOscd4eh8PW_zjv5DF_WIn5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
